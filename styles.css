@@ -1,0 +1,119 @@
+#mainHeader {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+}
+
+nav {
+  background-color: #EFB4B0;
+  height: 30px;
+  margin: 0 0 10px 5px;
+  border:  1px solid black;
+  padding: 0;
+}
+
+nav ul {
+  margin: 7px 0 0 0;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.9em;
+  border-right: 1px solid black;
+  width: 100px;
+}
+
+.nav-selected {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.productCard {
+   width: 30%; 
+}
+
+h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Arial", sans-serif;
+  font-size: .6em;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+/* applying styles to elements of type "input" */
+
+article {
+  height: 570px;
+  width: 30%;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+article ul {
+  list-style: none;
+  max-width: 98%;
+  margin: 0;
+  padding: 0;
+}
+
+#specialConditions input {
+  margin-left: 20px;
+  margin-bottom: 3px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+  padding: 0;
+  max-height: 120px;
+  max-width: 100%;
+}
+
+.productDesc {
+  max-width: 90%;
+  margin: 0;
+  padding: 0 0 0 8px;
+}
+
+.productAvailable {
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  font-size: 0.6em;
+  font-style: italic;
+  text-align: center
+}
+
+#thirdSection {
+  text-size: 0.8em;
+}
+
+#specifications {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
