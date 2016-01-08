@@ -1,3 +1,7 @@
+#container {
+  padding-left: 5%;
+}
+
 #mainHeader {
   font-family: "Arial", sans-serif;
   font-size: 24px;
@@ -5,11 +9,11 @@
 
 h1 {
   font-family: "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   margin: 0;
-  padding: 0;
+  padding: 7px 0 0 0;
 }
 
 h2 {
@@ -40,17 +44,14 @@ article {
   float: left;
 }
 
-article ul {
+article div {
   list-style: none;
   max-width: 98%;
-  margin: 0;
-  padding: 0;
 }
 
 img {
   display: block;
-  margin: 5px auto 2px;
-  padding: 0 auto;
+  margin: 5px auto 8px;
   padding: 0;
   max-height: 120px;
   max-width: 100%;
@@ -60,12 +61,15 @@ img {
   max-width: 90%;
   margin: 0;
   padding: 0 0 0 13px;
+  text-align: justify;
+  font-weight: bold;
 }
 
 .productAvailable {
   font-style: italic;
   font-weight: bold;
   text-align: center;
+  padding-top: 7px;
 }
 
 .productSize, .productWeight {
@@ -80,19 +84,28 @@ footer {
 }
 
 .firstSection{
+  height: 255px;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
 }
 
 .secondSection {
+  height: 140px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
 }
 
+.secondSection ul li {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
 .thirdSection {
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: bold;
 }
 
 .thirdSection header {
@@ -103,11 +116,12 @@ footer {
 #specifications {
   font-family: "Arial", sans-serif;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 #prices_left {
   margin-left: 10px;
-  width: 40%;
+  width: 45%;
   float: left;
 /*  border: 1px solid black;*/
 }
