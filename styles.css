@@ -1,44 +1,40 @@
+/** {
+  box-sizing: border-box;
+}*/
+
 #container {
   padding-left: 5%;
 }
 
 #mainHeader {
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 24px;
 }
 
 h1 {
-  font-family: "Arial", sans-serif;
+  font-family: 'Righteous', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
   margin: 0;
-  padding: 7px 0 0 0;
+  padding: 5px 0 5px 0;
+  border: 1px dotted #CCC;
 }
 
 h2 {
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: .6em;
   font-weight: normal;
   margin: 0;
   padding: 0;
 }
 
-h3 {
-  font-family: "Arial", sans-serif;
-  font-size: 1em;
-  font-weight: normal;
-  font-style: italic;
-  margin: 0 0 0 10px;
-  padding: 0;
-}
-
 /*one article is one card*/
 
 article {
-  height: 570px;
+  height: 550px;
   width: 30%;
-  border: 1px solid black;
+  border: 1px solid #AAF;
   margin: 0;
   padding: 0;
   float: left;
@@ -46,7 +42,6 @@ article {
 
 article div {
   list-style: none;
-  max-width: 98%;
 }
 
 img {
@@ -72,17 +67,6 @@ img {
   padding-top: 7px;
 }
 
-.productSize, .productWeight {
-  margin-left: 20px;
-}
-
-footer {
-  font-size: 0.6em;
-  font-style: italic;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
 .firstSection{
   height: 255px;
   padding-bottom: 10px;
@@ -90,7 +74,7 @@ footer {
 }
 
 .secondSection {
-  height: 140px;
+  height: 110px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
@@ -100,6 +84,30 @@ footer {
   list-style: none;
   margin: 0;
   padding: 10px 0 0 0;
+}
+
+.secondSection footer {
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#specifications {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.productSize, .productWeight {
+  margin: 10px 0 10px 15px;
+}
+
+.productAvailable {
+  margin: 0;
+  padding: 0;
+  background-color: #666;
+  color: yellow;
 }
 
 .thirdSection {
@@ -112,23 +120,14 @@ footer {
   text-size: 0.8em;
   margin-left: 20px;
 }
-
-#specifications {
-  font-family: "Arial", sans-serif;
-  font-weight: bold;
-  margin-left: 10px;
-}
-
 #prices_left {
   margin-left: 10px;
-  width: 45%;
+  width: 40%;
   float: left;
-/*  border: 1px solid black;*/
 }
 
 #prices_right {
   margin-left: 20px;
   width: 40%;
   float: right;
-/*  border: 1px solid black;*/
 }
